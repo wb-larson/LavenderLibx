@@ -41,7 +41,7 @@ public class lavLibX
         }*/
         
         
-        System.out.println("\n\n\n\nYour story begins in a kingdom far far away. \n\n\n\nThe kingdom has been under threat of war for quite some time now, as famine has ravaged much of the land. \n\nCrops have suffered, people have gone hungry, and many blame the leadership of their kingdom...King Joseph.\n\n The King's health has worsened over the past several months, and as he has no sons to take his place, he has two choices: to marry his daughter, Princess Sofia, to a suitable man, or surrender control to the next in line - his malicious brother, the Duke. \n\n\n To continue the story, press the 'enter' key to view the next item.");
+        System.out.println("\n\n\n\nYour story begins in a kingdom far far away. \n\n\n\nThe kingdom has been under threat of war for quite some time now, as famine has ravaged much of the land. \n\nCrops have suffered, people have gone hungry, and many blame the leadership of their kingdom...King Joseph.\n\n The King's health has worsened over the past several months, and as he has no sons to take his place, he has two choices: to marry his daughter, Princess Sofia, to a suitable man, or surrender control to the next in line - his malicious brother, the Duke. \n\n\nTo continue the story, press the 'enter' key to view the next item.");
                  
         try{System.in.read();}
             catch(Exception e){}
@@ -51,12 +51,12 @@ public class lavLibX
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("Sofia, the princess, grew alongside you. Though you were of different classes, a friendship emerged...");
+        System.out.print("\nSofia, the princess, grew alongside you. Though you were of different classes, a friendship emerged...");
         
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("you were as close as could be. You, two young girls trying to live outside the lines of what was expected of you.");
+        System.out.print("\n...you were as close as could be. You, two young girls trying to live outside the lines of what was expected of you.");
                          
         try{System.in.read();}
             catch(Exception e){}
@@ -96,7 +96,7 @@ public class lavLibX
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("\n\n\nFor years you walked there, tired from your day's labour but energized by the thought of seeing her, and hoped that she would come.");
+        System.out.print("\nFor years you walked there, tired from your day's labour but energized by the thought of seeing her, and hoped that she would come.");
           
         try{System.in.read();}
             catch(Exception e){}
@@ -111,12 +111,12 @@ public class lavLibX
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("\n\n\nOn the eve of Midsummer, when the days were the longest they could ever be and the scent of new life permeated the land, you trekked to the southern tower with the lightness of a songbird.");
+        System.out.print("\n\n\nIt is now, on the eve of Midsummer, when the days are the longest they could ever be and the scent of new life permeates the land, you trek to the southern tower with the lightness of a songbird.");
         
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("\nThis had been your ritual for several years now, and you were soon to bud into adulthood. Though you walked lightly, your heart thudded in your chest.");
+        System.out.print("\nThis has been your ritual for several years now, and you are soon to graduate into adulthood. Though you walk lightly, your heart thuds in your chest.");
         
         try{System.in.read();}
             catch(Exception e){}
@@ -126,11 +126,11 @@ public class lavLibX
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("\nAs time went on, you understood better the golden feeling of unbound love which was so celebrated in those words. Each step taken closer to your rendezvous lit your heart aflame, and each time she was there with you the flames were not extinguished but fanned hotter.\n");
+        System.out.print("\nAs time went on, you understood better the golden feeling of unbound love which was so celebrated in those words. Each step taken closer to your rendezvous lights your heart aflame, and each time she is there with you the flames were not extinguished but fanned hotter.\n");
         try{System.in.read();}
             catch(Exception e){}
         
-        System.out.print("\nSo now we are here - on this night, this eve of Midsummer. you step into the rounded chamber atop the tower and feel your heart stutter.");
+        System.out.print("\nNow, you step into the rounded chamber atop the tower and feel your heart stutter.");
         try{System.in.read();}
             catch(Exception e){}
         
@@ -174,16 +174,16 @@ public class lavLibX
                 try{System.in.read();}
                     catch(Exception e){}
 
-                System.out.println("\nSofia takes a deep breath, and sighs. \nSofia: " + heroName + ", I'm afraid I cannot appreciate them tonight. There is something weighing heavy on my mind...could I read you something?");
+                System.out.print("\nSofia takes a deep breath, and sighs. \n\nSofia: " + heroName + ", I'm afraid I cannot appreciate them tonight. There is something weighing heavy on my mind...could I read you something?");
             
-                System.out.println("Enter y/n");
+                System.out.println("\nEnter y/n");
                 ansChar = sc.next().charAt(0);
                     if (ansChar == 'y') {
                         yesNo = true;
                     }
             
                     if (yesNo) {
-                        System.out.println("Sofia: I fear that change is coming...in fact, I know that it is. \n She opens the book, to a page bookmarked by a pressed flower - one which you had given her at the close of summer last.");
+                        System.out.println("\nSofia: I fear that change is coming...in fact, I know that it is. \n She opens the book, to a page bookmarked by a pressed flower - one which you had given her at the close of summer last.");
                         
                         try{System.in.read();}
                         catch(Exception e){}
@@ -215,13 +215,77 @@ public class lavLibX
         
                         System.out.println("\nDo you: \n(1) embrace her. \n(2) laugh. \n(3) say: 'What was that all about? Seems dramatic.'");  
                         ansNum = sc.nextInt();
-                            if (ansNum == ok) {System.out.println("ok");}
-                            else if (ansNum == good) {System.out.println("good");}
-                            else if (ansNum ==bad) {System.out.println("bad");}
-                    }
-                    //FIXMEEEEEEEEEE add the NO option
-        }
+                            if (ansNum == ok) {
+                                
+                                System.out.print("You put your arm around her, but it feels as though she is in another world. You think about kissing her, but fear holds you back.");
+                                              
+                                     
+                            try{System.in.read();}
+                                catch(Exception e){}
+
+                            System.out.print("\nSofia: I am to be married. Father has not long left, and he has planned for me to be wed so that my children may inherit the kingdom.");
+                                
+                            try{System.in.read();}
+                                catch(Exception e){}
+
+                            System.out.print("\nYour heart aches. There will be no more moonlit romance, now that she is to be Queen.");
+                                                   
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                            System.out.print("\n" + heroName + ": as if it never was...");
+                                                   
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                           System.out.print("\nSofia: I do not wish to be queen if I must marry one whom I do not love.");
+                                
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                           System.out.print("\n" + heroName + ": What other option do we have?");     
+      
+                            try{System.in.read();}
+                            catch(Exception e){}
         
+                            System.out.print("\nSofia: We could...");
+                                                   
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                           System.out.print("\nYour mind races through all the possibilities of what could come next. The night air, warm from the long hours of sunlight, was electric.");
+
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                           System.out.print("\nSofia: ...leave this place. Come with me, and we can build a life for ourselves somewhere else.");
+                                               
+                            try{System.in.read();}
+                            catch(Exception e){}
+
+                           System.out.print("\nYou stop to think. Do you want to leave the security of the castle for a life in the unknown?");
+
+                            System.out.println("Enter y/n");
+                            ansChar = sc.next().charAt(0);
+                                if (ansChar == 'y') {
+                                    yesNo = true;
+                                }
+
+                                if (yesNo) {
+                                    System.out.println("You have chosen well...even though the path ahead may be difficult, you will walk it with Sofia."); 
+                                              
+                                    try{System.in.read();}
+                                    catch(Exception e){} 
+                                    System.out.print("That's it for now, this code is not finished! I (wynn) will rewrite this in a more web-suitable language and OOP...once I figure out how to do that! \nI've only got half a term of classes under my belt at this point.");
+                                }
+                                
+                         //   else if (ansNum == good) {System.out.println("good");}
+                         //   else if (ansNum ==bad) {System.out.println("bad");}
+                    }
+                    
+        }
+        }
+      /*  
          else if (ansNum == good) {
             System.out.println("\n\n" + heroName + ": What is wrong?");
             loveStr = loveStr + 1;
@@ -236,7 +300,7 @@ public class lavLibX
         
        // System.out.println("\nSofia 
                          
-
+*/
         
         
     }

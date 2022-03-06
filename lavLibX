@@ -1,0 +1,46 @@
+import java.util.Scanner;
+import java.util.Random;
+public class lavLibX
+{
+    public static void main(String args[]) {
+        
+        String heroName;
+        int hHealth;
+        int hAttack;
+        String answer;
+        boolean bRoll = false;
+
+        Scanner sc=new Scanner(System.in); //create new scanner
+        Random rand = new Random();
+        int randomNum = rand.nextInt((12 - 1) + 1) + 1;
+
+        System.out.println("Enter your name and press enter: ");
+        heroName = sc.nextLine();
+        System.out.println("\nWelcome, " + heroName + ". \nType 'roll' and press enter to roll the dice and set your first stat.");
+
+
+        answer = sc.nextLine();
+        if("roll".equals(answer)) {
+            hHealth = rand.nextInt((12 - 6) + 1) + 1;
+            System.out.println("Your maximum health is " + hHealth + ". Roll again to find out your attack. Type 'roll': ");
+        }
+        answer = sc.nextLine();
+        if ("roll".equals(answer)) {
+            hAttack = rand.nextInt((12 - 1) + 1) + 1;
+            System.out.print("Your maximum attack value is " + hAttack + ".");
+
+            if (hAttack < 4) {
+          System.out.println("Not everyone is born a fighter. You may wish to avoid combat, and use other skills to overcome challenges.");
+            }
+
+            else if (hAttack > 8) {
+            System.out.println("Be careful...Remember, actions have consequences. You may wish to avoid combat except with mortal enemies.");
+            }
+        }
+        
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnd so the story begins. \n\n\n\nThe kingdom has been under threat of war for quite some time now, as famine has ravaged much of the land. \n\nCrops have suffered, and many blame the leadership of their kingdom...King Joseph.\n\n The King's health has worsened over the past several months, and as he has no sons to take his place, he has two choices: to marry his daughter to a suitable man, or surrender control to the next in line - his malicious brother, the Duke. \n\n\n");
+        
+        
+    }
+}
+
